@@ -1,4 +1,4 @@
-let wordDemos = [
+export let wordDemos = [
   {
     label: "你好",
     value: "hello",

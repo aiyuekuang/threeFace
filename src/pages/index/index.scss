@@ -4,6 +4,17 @@
   padding: 20px;
 }
 .three_home_time{
+  @include hp();
+}
+.three_home_time_m{
   text-align: center;
   padding: 40px;
+  flex: 1;
+}
+.three_home_time_l{
+  width: 80px;
+  text-align: center;
+}
+.three_home_time_r{
+  @extend .three_home_time_l;
 }
